@@ -1,0 +1,81 @@
+{
+  "name": "Krish",
+  "handle": "kriai",
+  "role": "AI Product Strategist",
+  "headline": "I turn AI bets into working prototypes.",
+  "building": [
+    "agentic workflows",
+    "Claude Code skills",
+    "signal dashboards",
+    "Chrome extensions",
+    "AI-native finance tools"
+  ],
+  "projects": [
+    {
+      "slug": "high-signal",
+      "title": "High Signal",
+      "description": "A dashboard that scrapes my sources every 30 minutes and keeps only what matters.",
+      "tags": ["Python", "Cloudflare D1", "Actions"],
+      "status": "live",
+      "art": "radar",
+      "accent": ["#22d3ee", "#3b82f6"],
+      "url": "https://high-signal-dashboard.krishayd.workers.dev",
+      "cta": "open dashboard"
+    },
+    {
+      "slug": "full-page-screenshot",
+      "title": "Full Page Shot",
+      "description": "Chrome extension: capture whole pages, annotate, redact and export as PNG or PDF.",
+      "tags": ["Manifest V3", "JavaScript"],
+      "status": "store",
+      "art": "screenshot",
+      "accent": ["#f472b6", "#a855f7"],
+      "url": "https://chromewebstore.google.com/detail/hjheejhcljcogddbecincobcahmakkld",
+      "cta": "add to chrome"
+    },
+    {
+      "slug": "realtone",
+      "title": "realtone",
+      "description": "A Claude Code skill that strips AI writing patterns, using 50 tells and a QA pass.",
+      "tags": ["Claude Code", "Skill"],
+      "status": "oss",
+      "art": "rewrite",
+      "accent": ["#a3e635", "#22c55e"],
+      "url": "https://github.com/kriai/realtone",
+      "cta": "view repo"
+    },
+    {
+      "slug": "coa-intelligence",
+      "title": "CoA Intelligence",
+      "description": "Claude reads legacy chart-of-accounts files, flags problems and exports to NetSuite.",
+      "tags": ["TypeScript", "Claude API"],
+      "status": "live",
+      "art": "ledger",
+      "accent": ["#818cf8", "#6366f1"],
+      "url": "https://coa-intelligence-platform.vercel.app",
+      "cta": "try the demo"
+    },
+    {
+      "slug": "research-journal",
+      "title": "Research Journal",
+      "description": "My equity-research notes as a fast, searchable site, one row per company.",
+      "tags": ["Astro", "Netlify"],
+      "status": "oss",
+      "art": "chart",
+      "accent": ["#fbbf24", "#f97316"],
+      "url": "https://github.com/kriai/equity-research-journal",
+      "cta": "view repo"
+    },
+    {
+      "slug": "workmap",
+      "title": "Workmap",
+      "description": "AI transformation in one flow: interview, map the workflow, rank it, measure impact.",
+      "tags": ["Next.js", "LLM extraction"],
+      "status": "private",
+      "art": "flow",
+      "accent": ["#2dd4bf", "#06b6d4"],
+      "url": "",
+      "cta": "demo on request"
+    }
+  ]
+}

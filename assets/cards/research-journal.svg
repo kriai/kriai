@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="320" viewBox="0 0 600 320" role="img" aria-label="Research Journal: My equity-research notes as a fast, searchable site, one row per company.">
+  <title>Research Journal</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0d16"/><stop offset="1" stop-color="#121628"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fbbf24" stop-opacity="0.9"/><stop offset="0.25" stop-color="#fff" stop-opacity="0.08"/>
+      <stop offset="0.75" stop-color="#fff" stop-opacity="0.08"/><stop offset="1" stop-color="#f97316" stop-opacity="0.9"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 300 160;360 300 160" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fbbf24"/></linearGradient>
+    <radialGradient id="halo"><stop offset="0" stop-color="#f97316" stop-opacity="0.35"/><stop offset="1" stop-color="#f97316" stop-opacity="0"/></radialGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fbbf24" stop-opacity="0"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0.55"/></linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbbf24" stop-opacity="0"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0.45"/></linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbbf24" stop-opacity="0.35"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/></linearGradient>
+    <clipPath id="frame"><rect width="600" height="320" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace; }
+    .nudge { animation: nudge 1.8s ease-in-out infinite; }
+    @keyframes nudge { 0%,100% { transform: translateX(0); } 50% { transform: translateX(4px); } }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="600" height="320" fill="url(#bg)"/>
+    <circle cx="500" cy="120" r="200" fill="url(#halo)"><animate attributeName="r" values="180;220;180" dur="6s" repeatCount="indefinite"/></circle>
+  </g>
+  <rect x="1" y="1" width="598" height="318" rx="21" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+  <rect x="36" y="34" width="133" height="30" rx="15" fill="#a3e635" fill-opacity="0.1" stroke="#a3e635" stroke-opacity="0.35"/>
+  <circle cx="52" cy="49" r="4.5" fill="#a3e635"/>
+  <text x="64" y="54" class="mono" font-size="12" letter-spacing="1.5" fill="#a3e635">OPEN SOURCE</text>
+  <text x="36" y="118" class="sans" font-size="32" font-weight="800" letter-spacing="-1" fill="url(#title)">Research Journal</text>
+  <text x="36" y="156" class="sans" font-size="17" fill="#9ca3af"><tspan x="36" dy="0">My equity-research notes as a</tspan><tspan x="36" dy="25">fast, searchable site, one row per</tspan><tspan x="36" dy="25">company.</tspan></text>
+  <rect x="36" y="258" width="58" height="26" rx="13" fill="#fff" fill-opacity="0.05" stroke="#fff" stroke-opacity="0.12"/><text x="65" y="275.5" text-anchor="middle" class="mono" font-size="12" fill="#cbd5e1">Astro</text><rect x="102.5" y="258" width="73" height="26" rx="13" fill="#fff" fill-opacity="0.05" stroke="#fff" stroke-opacity="0.12"/><text x="139" y="275.5" text-anchor="middle" class="mono" font-size="12" fill="#cbd5e1">Netlify</text>
+  <g transform="translate(372 46)">
+      <path d="M0 40H200" stroke="#fff" stroke-opacity="0.07"/><path d="M0 80H200" stroke="#fff" stroke-opacity="0.07"/><path d="M0 120H200" stroke="#fff" stroke-opacity="0.07"/>
+      <g><path d="M34 98V126" stroke="#fff" stroke-opacity="0.25"/><rect x="29" y="104" width="10" height="16" rx="2" fill="#f87171" fill-opacity="0.55"/></g><g><path d="M58 106V134" stroke="#fff" stroke-opacity="0.25"/><rect x="53" y="112" width="10" height="16" rx="2" fill="#fbbf24" fill-opacity="0.55"/></g><g><path d="M82 74V102" stroke="#fff" stroke-opacity="0.25"/><rect x="77" y="80" width="10" height="16" rx="2" fill="#fbbf24" fill-opacity="0.55"/></g><g><path d="M106 82V110" stroke="#fff" stroke-opacity="0.25"/><rect x="101" y="88" width="10" height="16" rx="2" fill="#f87171" fill-opacity="0.55"/></g><g><path d="M130 48V76" stroke="#fff" stroke-opacity="0.25"/><rect x="125" y="54" width="10" height="16" rx="2" fill="#fbbf24" fill-opacity="0.55"/></g><g><path d="M154 58V86" stroke="#fff" stroke-opacity="0.25"/><rect x="149" y="64" width="10" height="16" rx="2" fill="#fbbf24" fill-opacity="0.55"/></g><g><path d="M178 20V48" stroke="#fff" stroke-opacity="0.25"/><rect x="173" y="26" width="10" height="16" rx="2" fill="#f87171" fill-opacity="0.55"/></g>
+      <path d="M10,130 L34,112 L58,120 L82,88 L106,96 L130,62 L154,72 L178,34 L194,40 L194,160 L10,160Z" fill="url(#area)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4;0.6;0.92;1" dur="4s" repeatCount="indefinite"/></path>
+      <path d="M10,130 L34,112 L58,120 L82,88 L106,96 L130,62 L154,72 L178,34 L194,40" fill="none" stroke="#fbbf24" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="320" stroke-dashoffset="320">
+        <animate attributeName="stroke-dashoffset" values="320;0;0;320" keyTimes="0;0.5;0.92;1" dur="4s" repeatCount="indefinite"/></path>
+      <circle r="5" fill="#fff"><animateMotion dur="4s" keyPoints="0;1;1;0" keyTimes="0;0.5;0.92;1" calcMode="linear" repeatCount="indefinite" path="M10,130 L34,112 L58,120 L82,88 L106,96 L130,62 L154,72 L178,34 L194,40"/></circle></g>
+  <g class="nudge"><text x="564" y="276" text-anchor="end" class="mono" font-size="13" fill="#fbbf24">view repo →</text></g>
+</svg>
