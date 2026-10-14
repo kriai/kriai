@@ -490,7 +490,10 @@ def main():
         all_repos = fetch_repos(profile_token, private=True) if profile_token else None
         public = [r for r in (all_repos or fetch_repos(token, private=False)) if not r["private"]]
         readme = replace_section(readme, "recent", recent_markdown(public))
-        if all_repos:
+        if all_repos and not any(r["private"] for r in all_repos):
+            print("PROFILE_TOKEN can't see private repos; keeping existing stats. "
+                  "Give the token access to all repositories.")
+        elif all_repos:
             write(ASSETS / "stats.svg", stats(stats_data(all_repos)))
             readme = re.sub(r"<!-- updated -->.*?<!-- /updated -->",
                             f"<!-- updated -->{datetime.now(timezone.utc):%d %b %Y}<!-- /updated -->", readme)
